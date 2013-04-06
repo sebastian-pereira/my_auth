@@ -1,0 +1,4 @@
+<% if Env::get(:user) %>
+	<%= link_to 'Выйти', :controller => :login, :action => :unlogin, :user_hash => Env::get(:user).user_hash %>
+<% end %>
+Вы Дома!!!

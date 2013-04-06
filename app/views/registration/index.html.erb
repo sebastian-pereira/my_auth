@@ -1,0 +1,41 @@
+<%= form_for @user_register, :url => {:controller => :registration, :action => :index} do |f| %>
+	<% if @user_register.errors.any? %>
+		<div id="errorExplanation">
+			<ul>
+				<% @user_register.errors.full_messages.each do |msg| %>
+					<li><%= msg%></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+	<table>
+		<tr>
+			<td><%= f.label :name, 'Имя' %></td>
+			<td><%= f.text_field :name, :value => 'Василий' %></td>
+		</tr>
+		<tr>
+			<td><%= f.label :surname, 'Фамилия' %></td>
+			<td><%= f.text_field :surname, :value => 'Василий' %></td>
+		</tr>
+		<tr>
+			<td><%= f.label :email, 'E-mail' %></td>
+			<td><%= f.text_field :email, :value => 'vasiliy_pupkin@mail.ru' %></td>
+		</tr>
+		
+		<tr>
+			<td><%= f.label :password, 'Пароль' %></td>
+			<td><%= f.text_field :password, :value => 'punkrock' %></td>
+		</tr>
+		
+		<tr>
+			<td><%= f.label :password_confirmation, 'Подтвердите пароль' %></td>
+			<td><%= f.text_field :password_confirmation, :value => 'punkrock' %></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td><%= f.submit 'Зарегистрироваться' %></td>
+		</tr>
+	</table>
+<% end %>
+

@@ -1,0 +1,12 @@
+secret: 8fbf407fda1bc1b9f92561c9e3a7d81dea59868d274bb119efa1349d36e179cbd8879265b3984249319abda42a34c8b53dc4e299c7fb01c8da4f8b7b5e8f3565
+set_cookies: {}
+delete_cookies: {}
+host: !binary |-
+  bG9jYWxob3N0
+secure: false
+closed: false
+cookies:
+  _dummy_session: BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJThlZmFmYzhmZTk1ZTM4OTBhMWIzZTU4ZjE3MzE3YmFkBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVpIa0E5aER5SE5hV3BFYzdNcVNpV1p5MkJMMDB5QVkyU2dLN3I4YldaenM9BjsARg==--c784f1230e3a405b4044d2f7e9f2d29554cbfb3f
+  _session_id: 16a409236a99a191387217762eb20505
+  user: '42'
+  key: 54f70929139a1408428822f303191ab5
